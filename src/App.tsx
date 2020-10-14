@@ -1,12 +1,12 @@
 import React from 'react';
 
-import './styles/global.min.css';
+import './styles/css/global.min.css';
+
+import Routes from './routes';
 
 function App() {
   return (
-    <div className="App">
-      <h1>Happy</h1>
-    </div>
+    <Routes />
   );
 }
 
